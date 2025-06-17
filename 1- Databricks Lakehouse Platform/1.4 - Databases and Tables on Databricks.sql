@@ -141,7 +141,7 @@ DROP TABLE external_new_default;
 -- COMMAND ----------
 
 CREATE SCHEMA custom
-MANAGED LOCATION 's3://derar-custom-store/custom_schemas'
+MANAGED LOCATION 's3://<BUCKET>/custom_schemas'
 
 -- COMMAND ----------
 
